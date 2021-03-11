@@ -1,0 +1,94 @@
+
+/*navbar*/
+.mycon{
+  background-color: green;
+  color: black;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar ul li{
+  list-style: none;
+  float: left;
+  width: 50%;
+  height:50px;
+  line-height: 50px;
+  margin-right: 50px;
+  
+
+
+}
+
+.navbar ul li a{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+
+
+/*banner*/
+
+#banner{
+  background-image:url('../image/bac.jpg');
+  height: 630px;
+  background-repeat:no-repeat;
+  display:block;
+    color: transparent;
+    background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+ 
+ 
+}
+
+.search{
+  background: silver;
+  margin-left:320px ;
+  color: black;
+}
+
+
+/*footer*/
+
+.myfooter{
+  background-color: green;
+  color: black;
+}
+
+
+.myfooter p{
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+  }
+
+
+/*Admin navbar*/
+
+#d1{
+  width: 230%;
+  text-align:center;
+  background:green;
+  display: none;
+  
+}
+
+#d2{
+  width: 250%;
+  text-align:center;
+  background:green;
+ display: none;
+
+}
